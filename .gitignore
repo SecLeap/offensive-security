@@ -1,0 +1,416 @@
+# ==============================
+
+# Operating system files
+
+# ==============================
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================
+
+# IDE and editor files
+
+# ==============================
+
+# Visual Studio Code
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# JetBrains IDEs
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+
+# Vim
+
+*.swp
+*.swo
+*.swn
+
+# Emacs
+
+*~
+#*#
+.#*
+
+# ==============================
+
+# Python
+
+# ==============================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+env/
+ENV/
+
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+.ipynb_checkpoints/
+
+# ==============================
+
+# Node.js
+
+# ==============================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+dist/
+coverage/
+
+# ==============================
+
+# Java
+
+# ==============================
+
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+.gradle/
+build/
+
+hs_err_pid*
+replay_pid*
+
+# ==============================
+
+# Go
+
+# ==============================
+
+bin/
+pkg/
+*.test
+*.out
+
+# ==============================
+
+# Rust
+
+# ==============================
+
+target/
+Cargo.lock
+
+# ==============================
+
+# Logs and runtime files
+
+# ==============================
+
+logs/
+log/
+*.log
+*.trace
+*.pid
+*.pid.lock
+*.seed
+*.stackdump
+
+tmp/
+temp/
+.cache/
+cache/
+
+# ==============================
+
+# Archives and packages
+
+# ==============================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.xz
+*.gz
+
+# ==============================
+
+# Database and data files
+
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+data/
+datasets/
+exports/
+output/
+outputs/
+reports/generated/
+
+# ==============================
+
+# Secrets and credentials
+
+# ==============================
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+credentials.json
+secrets.json
+secret.json
+config.local.*
+settings.local.*
+
+*.crt
+*.cer
+
+# Kubernetes secrets
+
+*-secret.yaml
+*-secret.yml
+secrets.yaml
+secrets.yml
+
+# Terraform variables
+
+*.tfvars
+*.tfvars.json
+
+# ==============================
+
+# Security testing artifacts
+
+# ==============================
+
+# Packet captures
+
+*.pcap
+*.pcapng
+*.cap
+
+# Memory and disk images
+
+*.raw
+*.img
+*.dd
+*.E01
+*.e01
+*.vmdk
+*.vhd
+*.vhdx
+*.mem
+*.dmp
+
+# Scanner outputs
+
+nmap-output/
+masscan-output/
+scanner-output/
+scan-results/
+results/
+artifacts/
+
+*.nessus
+*.burp
+*.har
+*.sarif
+
+# Malware and suspicious samples
+
+samples/
+malware/
+quarantine/
+sandbox-output/
+
+# Exploit binaries and payloads
+
+payloads/
+shellcode/
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.apk
+*.ipa
+
+# Wordlists and large dictionaries
+
+wordlists/
+dictionaries/
+
+# ==============================
+
+# Docker
+
+# ==============================
+
+docker-compose.override.yml
+
+.docker/
+docker-data/
+volumes/
+
+# ==============================
+
+# Terraform
+
+# ==============================
+
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ==============================
+
+# Ansible
+
+# ==============================
+
+*.retry
+ansible.log
+vault-password.txt
+
+# ==============================
+
+# Git local files
+
+# ==============================
+
+.git-rewrite/
+.git-credentials
+
+# Local patch files
+
+*.patch
+*.diff
+
+# ==============================
+
+# Project-specific local files
+
+# ==============================
+
+local/
+private/
+workspace/
+scratch/
+backup/
+backups/
+
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
